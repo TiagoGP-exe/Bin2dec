@@ -7,6 +7,7 @@ function convert() {
         valor.split('').map((char) => {
             if (char !== '0' && char !== '1') {
                 Toast.show('Por favor digite números binários, Ex:10101', 'error')
+                output.innerHTML = '?'
             } else {
                 output.innerHTML = `${parseInt(valor, 2)}`
             }
