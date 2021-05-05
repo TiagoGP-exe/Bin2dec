@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="logo.svg">
     <link rel="stylesheet" href="./toast/toast.css">
     <link rel="icon" href="./bin.svg">
     <title>Bin2Dec</title>
 </head>
+
 <body>
     <form class="box">
         <fieldset>
             <legend><img src="./bin2dec.svg" alt="Bin2Dec"></legend>
             <label for="binary">Binary code here</label>
-            <input type="number" name="binary" id="bin" class="input"  placeholder="Ex: 1010">
-            <div class="center"><p id="res">0</p></div>
+            <input type="number" id="bin" class="input" placeholder="Ex: 1010">
+            <div class="center">
+                <p id="res">0</p>
+            </div>
         </fieldset>
         <footer>
-            <a href="https://github.com/TiagoGP-exe/Bin2dec" ><img src="./github.svg" alt="github"></a>
+            <a href="https://github.com/TiagoGP-exe/Bin2dec"><img src="./github.svg" alt="github"></a>
         </footer>
     </form>
     <script src="./script.js"></script>
     <script src="./toast/toast.js"></script>
 </body>
+
 </html>
